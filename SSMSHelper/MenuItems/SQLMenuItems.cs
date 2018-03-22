@@ -123,7 +123,8 @@ namespace SSMSHelper.MenuItems
 
         private string[] GetQueryByContext(string[] template, string context)
         {
-            string[] query = template;
+            string[] query =new string[template.Length];
+            template.CopyTo(query, 0);
             Regex reg = new Regex(ContextRegEx);
             Match m = reg.Match(context);
             if (!m.Success) {
