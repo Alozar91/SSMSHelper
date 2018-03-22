@@ -53,7 +53,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CopyVsixExtensionFiles>True</CopyVsixExtensionFiles>
-    <CopyVsixExtensionLocation>E:\projects\SSMSHelper\Build</CopyVsixExtensionLocation>
+    <CopyVsixExtensionLocation>E:\projects\SSMSHelper\ReleaseVSIX</CopyVsixExtensionLocation>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="MenuItems\SQLMenuItems.cs" />
